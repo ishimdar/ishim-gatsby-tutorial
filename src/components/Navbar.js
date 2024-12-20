@@ -30,6 +30,9 @@ export default function Navbar() {
                     <Link to="/about" className="nav-link" activeClassName="active-link" onClick={() => setShow(false)}>
                     About
                     </Link>
+                    <Link to="/teams" className="nav-link" activeClassName="active-link" onClick={() => setShow(false)}>
+                    Teams
+                    </Link>
                     <div className="nav-link contact-link">
                         <Link to="/contact" className="btn" onClick={() => setShow(false)}>
                         Contact
