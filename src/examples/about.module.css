@@ -1,0 +1,7 @@
+.page{}
+.page h1{}
+.page h2{color: red;}
+.text{
+    text-transform: capitalize;
+    color: #d7e727;
+}
